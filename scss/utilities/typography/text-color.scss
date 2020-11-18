@@ -1,0 +1,10 @@
+$utilities: map-merge($utilities,
+  (
+    "text-color": (
+      responsive: false,
+      property: color,
+      class: text,
+      values: map-merge($colors, $theme-colors)
+    )
+  )
+);

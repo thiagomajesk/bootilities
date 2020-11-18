@@ -1,0 +1,10 @@
+$utilities: map-merge($utilities,
+  (
+    "justify-content": (
+      responsive: false,
+      property: justify-content,
+      class: justify,
+      values: ("start": flex-start, "end": flex-end, "center": center, "between": space-between, "around": space-around, "evenly": space-evenly)
+    )
+  )
+);

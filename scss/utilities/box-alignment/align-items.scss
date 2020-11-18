@@ -1,0 +1,10 @@
+$utilities: map-merge($utilities,
+  (
+    "align-items": (
+      responsive: false,
+      property: align-items,
+      class: items,
+      values: ("start": flex-start, "end": flex-end, "center": center, "baseline": baseline, "stretch": stretch)
+    )
+  )
+);

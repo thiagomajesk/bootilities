@@ -1,0 +1,10 @@
+$utilities: map-merge($utilities,
+  (
+    "border-style": (
+      responsive: false,
+      property: border-style,
+      class: border,
+      values: (solid, dashed, dotted, double, none)
+    )
+  )
+);

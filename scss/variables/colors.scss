@@ -1,0 +1,298 @@
+$gray-50: #F9FAFB;
+$gray-100: #F3F4F6;
+$gray-200: #E5E7EB;
+$gray-300: #D1D5DB;
+$gray-400: #9CA3AF;
+$gray-500: #6B7280;
+$gray-600: #4B5563;
+$gray-700: #374151;
+$gray-800: #1F2937;
+$gray-900: #111827;
+
+$grays: (
+  "gray-50": $gray-50,
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
+  "gray-500": $gray-500,
+  "gray-600": $gray-600,
+  "gray-700": $gray-700,
+  "gray-800": $gray-800,
+  "gray-900": $gray-900
+);
+
+$blue-50: #EFF6FF;
+$blue-100: #DBEAFE;
+$blue-200: #BFDBFE;
+$blue-300: #93C5FD;
+$blue-400: #60A5FA;
+$blue-500: #3B82F6;
+$blue-600: #2563EB;
+$blue-700: #1D4ED8;
+$blue-800: #1E40AF;
+$blue-900: #1E3A8A;
+
+$blues: (
+  "blue-50": $blue-50,
+  "blue-100": $blue-100,
+  "blue-200": $blue-200,
+  "blue-300": $blue-300,
+  "blue-400": $blue-400,
+  "blue-500": $blue-500,
+  "blue-600": $blue-600,
+  "blue-700": $blue-700,
+  "blue-800": $blue-800,
+  "blue-900": $blue-900
+);
+
+$indigo-50: #EEF2FF;
+$indigo-100: #E0E7FF;
+$indigo-200: #C7D2FE;
+$indigo-300: #A5B4FC;
+$indigo-400: #818CF8;
+$indigo-500: #6366F1;
+$indigo-600: #4F46E5;
+$indigo-700: #4338CA;
+$indigo-800: #3730A3;
+$indigo-900: #312E81;
+
+$indigos: (
+  "indigo-50": $indigo-50,
+  "indigo-100": $indigo-100,
+  "indigo-200": $indigo-200,
+  "indigo-300": $indigo-300,
+  "indigo-400": $indigo-400,
+  "indigo-500": $indigo-500,
+  "indigo-600": $indigo-600,
+  "indigo-700": $indigo-700,
+  "indigo-800": $indigo-800,
+  "indigo-900": $indigo-900
+);
+
+$purple-50: #F5F3FF;
+$purple-100: #EDE9FE;
+$purple-200: #DDD6FE;
+$purple-300: #C4B5FD;
+$purple-400: #A78BFA;
+$purple-500: #8B5CF6;
+$purple-600: #7C3AED;
+$purple-700: #6D28D9;
+$purple-800: #5B21B6;
+$purple-900: #4C1D95;
+
+$purples: (
+  "purple-50": $purple-50,
+  "purple-100": $purple-100,
+  "purple-200": $purple-200,
+  "purple-300": $purple-300,
+  "purple-400": $purple-400,
+  "purple-500": $purple-500,
+  "purple-600": $purple-600,
+  "purple-700": $purple-700,
+  "purple-800": $purple-800,
+  "purple-900": $purple-900
+);
+
+$pink-50: #FDF2F8;
+$pink-100: #FCE7F3;
+$pink-200: #FBCFE8;
+$pink-300: #F9A8D4;
+$pink-400: #F472B6;
+$pink-500: #EC4899;
+$pink-600: #DB2777;
+$pink-700: #BE185D;
+$pink-800: #9D174D;
+$pink-900: #831843;
+
+$pinks: (
+  "pink-50": $pink-50,
+  "pink-100": $pink-100,
+  "pink-200": $pink-200,
+  "pink-300": $pink-300,
+  "pink-400": $pink-400,
+  "pink-500": $pink-500,
+  "pink-600": $pink-600,
+  "pink-700": $pink-700,
+  "pink-800": $pink-800,
+  "pink-900": $pink-900
+);
+
+$red-50: #FEF2F2;
+$red-100: #FEE2E2;
+$red-200: #FECACA;
+$red-300: #FCA5A5;
+$red-400: #F87171;
+$red-500: #EF4444;
+$red-600: #DC2626;
+$red-700: #B91C1C;
+$red-800: #991B1B;
+$red-900: #7F1D1D;
+
+$reds: (
+  "red-50": $red-50,
+  "red-100": $red-100,
+  "red-200": $red-200,
+  "red-300": $red-300,
+  "red-400": $red-400,
+  "red-500": $red-500,
+  "red-600": $red-600,
+  "red-700": $red-700,
+  "red-800": $red-800,
+  "red-900": $red-900
+);
+
+$orange-50: #FFF7ED;
+$orange-100: #FFEDD5;
+$orange-200: #FED7AA;
+$orange-300: #FDBA74;
+$orange-400: #FB923C;
+$orange-500: #F97316;
+$orange-600: #EA580C;
+$orange-700: #C2410C;
+$orange-800: #9A3412;
+$orange-900: #7C2D12;
+
+$oranges: (
+  "orange-50": $orange-50,
+  "orange-100": $orange-100,
+  "orange-200": $orange-200,
+  "orange-300": $orange-300,
+  "orange-400": $orange-400,
+  "orange-500": $orange-500,
+  "orange-600": $orange-600,
+  "orange-700": $orange-700,
+  "orange-800": $orange-800,
+  "orange-900": $orange-900
+);
+
+$yellow-50: #FFFBEB;
+$yellow-100: #FEF3C7;
+$yellow-200: #FDE68A;
+$yellow-300: #FCD34D;
+$yellow-400: #FBBF24;
+$yellow-500: #F59E0B;
+$yellow-600: #D97706;
+$yellow-700: #B45309;
+$yellow-800: #92400E;
+$yellow-900: #78350F;
+
+$yellows: (
+  "yellow-50": $yellow-50,
+  "yellow-100": $yellow-100,
+  "yellow-200": $yellow-200,
+  "yellow-300": $yellow-300,
+  "yellow-400": $yellow-400,
+  "yellow-500": $yellow-500,
+  "yellow-600": $yellow-600,
+  "yellow-700": $yellow-700,
+  "yellow-800": $yellow-800,
+  "yellow-900": $yellow-900
+);
+
+$green-50: #ECFDF5;
+$green-100: #D1FAE5;
+$green-200: #A7F3D0;
+$green-300: #6EE7B7;
+$green-400: #34D399;
+$green-500: #10B981;
+$green-600: #059669;
+$green-700: #047857;
+$green-800: #065F46;
+$green-900: #064E3B;
+
+$greens: (
+  "green-50": $green-50,
+  "green-100": $green-100,
+  "green-200": $green-200,
+  "green-300": $green-300,
+  "green-400": $green-400,
+  "green-500": $green-500,
+  "green-600": $green-600,
+  "green-700": $green-700,
+  "green-800": $green-800,
+  "green-900": $green-900
+);
+
+$teal-50: #F0FDFA;
+$teal-100: #CCFBF1;
+$teal-200: #99F6E4;
+$teal-300: #5EEAD4;
+$teal-400: #2DD4BF;
+$teal-500: #14B8A6;
+$teal-600: #0D9488;
+$teal-700: #0F766E;
+$teal-800: #115E59;
+$teal-900: #134E4A;
+
+$teals: (
+  "teal-50": $teal-50,
+  "teal-100": $teal-100,
+  "teal-200": $teal-200,
+  "teal-300": $teal-300,
+  "teal-400": $teal-400,
+  "teal-500": $teal-500,
+  "teal-600": $teal-600,
+  "teal-700": $teal-700,
+  "teal-800": $teal-800,
+  "teal-900": $teal-900
+);
+
+$cyan-50: #ECFEFF;
+$cyan-100: #CFFAFE;
+$cyan-200: #A5F3FC;
+$cyan-300: #67E8F9;
+$cyan-400: #22D3EE;
+$cyan-500: #06B6D4;
+$cyan-600: #0891B2;
+$cyan-700: #0E7490;
+$cyan-800: #155E75;
+$cyan-900: #164E63;
+
+$cyans: (
+  "cyan-50": $cyan-50,
+  "cyan-100": $cyan-100,
+  "cyan-200": $cyan-200,
+  "cyan-300": $cyan-300,
+  "cyan-400": $cyan-400,
+  "cyan-500": $cyan-500,
+  "cyan-600": $cyan-600,
+  "cyan-700": $cyan-700,
+  "cyan-800": $cyan-800,
+  "cyan-900": $cyan-900
+);
+
+$colors: () !default;
+
+$white: #fff;
+$black: #000;
+$blue: $blue-500;
+$indigo: $indigo-500;
+$purple: $purple-500;
+$pink: $pink-500;
+$red: $red-500;
+$orange: $orange-500;
+$yellow: $yellow-500;
+$green: $green-500;
+$teal: $teal-500;
+$cyan: $cyan-500;
+
+$colors: map-merge($colors, (
+    "transparent": transparent,
+    // "currentColor": currentColor,
+    "white": $white,
+    "black": $black
+  )
+);
+
+$colors: map-merge($colors, $grays);
+$colors: map-merge($colors, $blues);
+$colors: map-merge($colors, $indigos);
+$colors: map-merge($colors, $purples);
+$colors: map-merge($colors, $pinks);
+$colors: map-merge($colors, $reds);
+$colors: map-merge($colors, $oranges);
+$colors: map-merge($colors, $yellows);
+$colors: map-merge($colors, $greens);
+$colors: map-merge($colors, $teals);
+$colors: map-merge($colors, $cyans);

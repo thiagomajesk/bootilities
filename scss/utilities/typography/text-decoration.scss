@@ -1,0 +1,10 @@
+$utilities: map-merge($utilities,
+  (
+    "text-decoration": (
+      responsive: true,
+      property: text-decoration,
+      class: text,
+      values: ("underline": underline, "line-through": line-through, "no-underline": none)
+    )
+  )
+);

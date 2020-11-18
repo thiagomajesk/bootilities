@@ -1,0 +1,10 @@
+$utilities: map-merge($utilities,
+  (
+    "border-color": (
+      responsive: false,
+      property: border-color,
+      class: border,
+      values: map-merge($colors, $theme-colors)
+    )
+  )
+);

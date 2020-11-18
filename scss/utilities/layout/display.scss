@@ -1,0 +1,30 @@
+$utilities: map-merge($utilities,
+  (
+    "display": (
+      responsive: true,
+      print: true,
+      property: display,
+      class: d,
+      values: (
+        block: block,
+        inline-block: inline-block,
+        inline: inline,
+        flex: flex,
+        inline-flex: inline-flex,
+        table: table,
+        table-caption: table-caption,
+        table-cell: table-cell,
+        table-column: table-column,
+        table-column-group: table-column-group,
+        table-footer-group: table-footer-group,
+        table-row-group: table-row-group,
+        table-row: table-row,
+        flow-row: flow-row,
+        grid: grid,
+        inline-grid: inline-grid,
+        contents: contents,
+        hidden: none
+      )
+    )
+  )
+);

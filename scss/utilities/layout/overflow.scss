@@ -1,0 +1,19 @@
+$utilities: map-merge($utilities,
+  (
+    "overflow": (
+      responsive: true,
+      property: overflow,
+      values: (auto hidden visible scroll)
+    ),
+    "overflow-x": (
+      responsive: true,
+      property: overflow-x,
+      values: (auto hidden visible scroll)
+    ),
+    "overflow-y": (
+      responsive: true,
+      property: overflow-y,
+      values: (auto hidden visible scroll)
+    )
+  )
+);
