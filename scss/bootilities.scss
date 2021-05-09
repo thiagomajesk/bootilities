@@ -1,17 +1,18 @@
-// Configuration
+// Bootilities Setup & Configuration
 @import "variables/default.scss";
 @import "variables/reboot.scss";
 @import "variables/spacers.scss";
 @import "variables/colors.scss";
 
 // Bootstrap Dependencies
-@import "vendor/bootstrap/functions";
-@import "vendor/bootstrap/variables";
-@import "vendor/bootstrap/utilities";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/utilities";
 
+// Bootilities Globals & Resets
 @import "preflight.scss";
 
-// Utilities
+// Bootilities Utility Classes
 @import "utilities/layout";
 @import "utilities/backgrounds";
 @import "utilities/borders";
@@ -20,3 +21,7 @@
 @import "utilities/box-alignment";
 @import "utilities/flexbox";
 @import "utilities/interactivity";
+
+// Bootstrap Utilities API Generation
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities/api";
