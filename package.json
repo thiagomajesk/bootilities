@@ -1,7 +1,7 @@
 {
   "name": "bootilities",
   "description": "A set of utilities generated with Bootstrap 5 to mimic Tailwind CSS functional paradigm",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "keywords": [
     "bootstrap",
     "utility css",
