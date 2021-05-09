@@ -14,6 +14,12 @@
   ],
   "author": "Thiago Majesk Goulart",
   "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomajesk/bootilities.git"
+  },
+  "style": "dist/css/bootilities.css",
+  "sass": "scss/bootilities.scss",
   "scripts": {
     "release": "npm-run-all sync-vendor build-dev build-prod",
     "build-dev": "sass --style expanded --source-map --no-error-css --embed-sources scss/bootilities.build.scss dist/css/bootilities.css",
