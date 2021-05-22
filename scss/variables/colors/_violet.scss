@@ -1,0 +1,28 @@
+$violet-50:  #F5F3FF !default;
+$violet-100: #EDE9FE !default;
+$violet-200: #DDD6FE !default;
+$violet-300: #C4B5FD !default;
+$violet-400: #A78BFA !default;
+$violet-500: #8B5CF6 !default;
+$violet-600: #7C3AED !default;
+$violet-700: #6D28D9 !default;
+$violet-800: #5B21B6 !default;
+$violet-900: #4C1D95 !default;
+
+$violets: () !default;
+
+$violets: map-merge(
+  (
+    "violet-50":  $violet-50,
+    "violet-100": $violet-100,
+    "violet-200": $violet-200,
+    "violet-300": $violet-300,
+    "violet-400": $violet-400,
+    "violet-500": $violet-500,
+    "violet-600": $violet-600,
+    "violet-700": $violet-700,
+    "violet-800": $violet-800,
+    "violet-900": $violet-900
+  ),
+  $violets
+);

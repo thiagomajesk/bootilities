@@ -1,0 +1,28 @@
+$purple-50:  #F5F3FF !default;
+$purple-100: #EDE9FE !default;
+$purple-200: #DDD6FE !default;
+$purple-300: #C4B5FD !default;
+$purple-400: #A78BFA !default;
+$purple-500: #8B5CF6 !default;
+$purple-600: #7C3AED !default;
+$purple-700: #6D28D9 !default;
+$purple-800: #5B21B6 !default;
+$purple-900: #4C1D95 !default;
+
+$purples: () !default;
+
+$purples: map-merge(
+  (
+    "purple-50":  $purple-50,
+    "purple-100": $purple-100,
+    "purple-200": $purple-200,
+    "purple-300": $purple-300,
+    "purple-400": $purple-400,
+    "purple-500": $purple-500,
+    "purple-600": $purple-600,
+    "purple-700": $purple-700,
+    "purple-800": $purple-800,
+    "purple-900": $purple-900
+  ),
+  $purples
+);

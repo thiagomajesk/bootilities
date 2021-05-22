@@ -1,0 +1,28 @@
+$gray-50:  #FAFAFA !default;
+$gray-100: #F4F4F5 !default;
+$gray-200: #E4E4E7 !default;
+$gray-300: #D4D4D8 !default;
+$gray-400: #A1A1AA !default;
+$gray-500: #71717A !default;
+$gray-600: #52525B !default;
+$gray-700: #3F3F46 !default;
+$gray-800: #27272A !default;
+$gray-900: #18181B !default;
+
+$grays: () !default;
+
+$grays: map-merge(
+  (
+    "gray-50":  $gray-50,
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+    "gray-400": $gray-400,
+    "gray-500": $gray-500,
+    "gray-600": $gray-600,
+    "gray-700": $gray-700,
+    "gray-800": $gray-800,
+    "gray-900": $gray-900
+  ),
+  $grays
+);

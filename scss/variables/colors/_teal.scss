@@ -1,0 +1,28 @@
+$teal-50:  #F0FDFA !default;
+$teal-100: #CCFBF1 !default;
+$teal-200: #99F6E4 !default;
+$teal-300: #5EEAD4 !default;
+$teal-400: #2DD4BF !default;
+$teal-500: #14B8A6 !default;
+$teal-600: #0D9488 !default;
+$teal-700: #0F766E !default;
+$teal-800: #115E59 !default;
+$teal-900: #134E4A !default;
+
+$teals: () !default;
+
+$teals: map-merge(
+  (
+    "teal-50":  $teal-50,
+    "teal-100": $teal-100,
+    "teal-200": $teal-200,
+    "teal-300": $teal-300,
+    "teal-400": $teal-400,
+    "teal-500": $teal-500,
+    "teal-600": $teal-600,
+    "teal-700": $teal-700,
+    "teal-800": $teal-800,
+    "teal-900": $teal-900
+  ),
+  $teals
+);

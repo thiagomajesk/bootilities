@@ -1,0 +1,28 @@
+$indigo-50:  #EEF2FF !default;
+$indigo-100: #E0E7FF !default;
+$indigo-200: #C7D2FE !default;
+$indigo-300: #A5B4FC !default;
+$indigo-400: #818CF8 !default;
+$indigo-500: #6366F1 !default;
+$indigo-600: #4F46E5 !default;
+$indigo-700: #4338CA !default;
+$indigo-800: #3730A3 !default;
+$indigo-900: #312E81 !default;
+
+$indigos: () !default;
+
+$indigos: map-merge(
+  (
+    "indigo-50":  $indigo-50,
+    "indigo-100": $indigo-100,
+    "indigo-200": $indigo-200,
+    "indigo-300": $indigo-300,
+    "indigo-400": $indigo-400,
+    "indigo-500": $indigo-500,
+    "indigo-600": $indigo-600,
+    "indigo-700": $indigo-700,
+    "indigo-800": $indigo-800,
+    "indigo-900": $indigo-900
+  ),
+  $indigos
+);

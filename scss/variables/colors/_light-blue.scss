@@ -1,0 +1,28 @@
+$light-blue-50:  #F0F9FF !default;
+$light-blue-100: #E0F2FE !default;
+$light-blue-200: #BAE6FD !default;
+$light-blue-300: #7DD3FC !default;
+$light-blue-400: #38BDF8 !default;
+$light-blue-500: #0EA5E9 !default;
+$light-blue-600: #0284C7 !default;
+$light-blue-700: #0369A1 !default;
+$light-blue-800: #075985 !default;
+$light-blue-900: #0C4A6E !default;
+
+$light-blues: () !default;
+
+$light-blues: map-merge(
+  (
+    "light-blue-50":  $light-blue-50,
+    "light-blue-100": $light-blue-100,
+    "light-blue-200": $light-blue-200,
+    "light-blue-300": $light-blue-300,
+    "light-blue-400": $light-blue-400,
+    "light-blue-500": $light-blue-500,
+    "light-blue-600": $light-blue-600,
+    "light-blue-700": $light-blue-700,
+    "light-blue-800": $light-blue-800,
+    "light-blue-900": $light-blue-900
+  ),
+  $light-blues
+);

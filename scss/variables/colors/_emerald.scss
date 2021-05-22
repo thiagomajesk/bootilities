@@ -1,0 +1,28 @@
+$emerald-50:  #ECFDF5 !default;
+$emerald-100: #D1FAE5 !default;
+$emerald-200: #A7F3D0 !default;
+$emerald-300: #6EE7B7 !default;
+$emerald-400: #34D399 !default;
+$emerald-500: #10B981 !default;
+$emerald-600: #059669 !default;
+$emerald-700: #047857 !default;
+$emerald-800: #065F46 !default;
+$emerald-900: #064E3B !default;
+
+$emeralds: () !default;
+
+$emeralds: map-merge(
+  (
+    "emerald-50":  $emerald-50,
+    "emerald-100": $emerald-100,
+    "emerald-200": $emerald-200,
+    "emerald-300": $emerald-300,
+    "emerald-400": $emerald-400,
+    "emerald-500": $emerald-500,
+    "emerald-600": $emerald-600,
+    "emerald-700": $emerald-700,
+    "emerald-800": $emerald-800,
+    "emerald-900": $emerald-900,
+  ),
+  $emeralds
+);

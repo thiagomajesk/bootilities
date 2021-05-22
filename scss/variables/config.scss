@@ -1,0 +1,8 @@
+$bootilities-configuration: () !default;
+
+$bootilities-configuration: map-merge(
+  (
+    "extended-color-palette": false,
+  ),
+  $bootilities-configuration
+);

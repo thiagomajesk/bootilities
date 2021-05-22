@@ -1,0 +1,28 @@
+$orange-50:  #FFF7ED !default;
+$orange-100: #FFEDD5 !default;
+$orange-200: #FED7AA !default;
+$orange-300: #FDBA74 !default;
+$orange-400: #FB923C !default;
+$orange-500: #F97316 !default;
+$orange-600: #EA580C !default;
+$orange-700: #C2410C !default;
+$orange-800: #9A3412 !default;
+$orange-900: #7C2D12 !default;
+
+$oranges: () !default;
+
+$oranges: map-merge(
+  (
+    "orange-50":  $orange-50,
+    "orange-100": $orange-100,
+    "orange-200": $orange-200,
+    "orange-300": $orange-300,
+    "orange-400": $orange-400,
+    "orange-500": $orange-500,
+    "orange-600": $orange-600,
+    "orange-700": $orange-700,
+    "orange-800": $orange-800,
+    "orange-900": $orange-900
+  ),
+  $oranges
+);

@@ -1,0 +1,28 @@
+$red-50:  #FEF2F2 !default;
+$red-100: #FEE2E2 !default;
+$red-200: #FECACA !default;
+$red-300: #FCA5A5 !default;
+$red-400: #F87171 !default;
+$red-500: #EF4444 !default;
+$red-600: #DC2626 !default;
+$red-700: #B91C1C !default;
+$red-800: #991B1B !default;
+$red-900: #7F1D1D !default;
+
+$reds: () !default;
+
+$reds: map-merge(
+  (
+    "red-50":  $red-50,
+    "red-100": $red-100,
+    "red-200": $red-200,
+    "red-300": $red-300,
+    "red-400": $red-400,
+    "red-500": $red-500,
+    "red-600": $red-600,
+    "red-700": $red-700,
+    "red-800": $red-800,
+    "red-900": $red-900
+  ),
+  $reds
+);
