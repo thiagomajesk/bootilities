@@ -1,0 +1,50 @@
+$border-color: $gray-300 !default;
+$negative-spacers: false !default;
+
+$colors: () !default;
+$theme-colors: () !default;
+
+// Color Variables
+
+$white: #fff !default;
+$black: #000 !default;
+$blue: $blue-500 !default;
+$indigo: $indigo-500 !default;
+$purple: $purple-500 !default;
+$pink: $pink-500 !default;
+$red: $red-500 !default;
+$orange: $orange-500 !default;
+$yellow: $yellow-500 !default;
+$green: $green-500 !default;
+$teal: $teal-500 !default;
+$cyan: $cyan-500 !default;
+
+// Default Colors
+$colors: map-merge(("transparent": transparent), $colors);
+$colors: map-merge(("white": $white), $colors);
+$colors: map-merge(("black": $black), $colors);
+
+$colors: map-merge($colors, $grays);
+$colors: map-merge($colors, $blues);
+$colors: map-merge($colors, $indigos);
+$colors: map-merge($colors, $purples);
+$colors: map-merge($colors, $pinks);
+$colors: map-merge($colors, $reds);
+$colors: map-merge($colors, $oranges);
+$colors: map-merge($colors, $yellows);
+$colors: map-merge($colors, $greens);
+$colors: map-merge($colors, $teals);
+$colors: map-merge($colors, $cyans);
+
+// Extended Colors
+$colors: merge-extended-colors($colors, $ambers);
+$colors: merge-extended-colors($colors, $blue-grays);
+$colors: merge-extended-colors($colors, $cool-grays);
+$colors: merge-extended-colors($colors, $emeralds);
+$colors: merge-extended-colors($colors, $fuschsias);
+$colors: merge-extended-colors($colors, $light-blues);
+$colors: merge-extended-colors($colors, $limes);
+$colors: merge-extended-colors($colors, $roses);
+$colors: merge-extended-colors($colors, $true-grays);
+$colors: merge-extended-colors($colors, $violets);
+$colors: merge-extended-colors($colors, $warm-grays);

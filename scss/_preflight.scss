@@ -1,0 +1,13 @@
+/*
+* Defaults required for the utilities to function properly
+* Partially forked from TailwindCSS:
+* https://github.com/tailwindlabs/tailwindcss/blob/fd45e31f172678578b134c3ce6c4eb3ec98502fd/src/plugins/css/preflight.css
+*/
+
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: $border-color;
+}

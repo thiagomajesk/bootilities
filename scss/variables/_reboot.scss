@@ -1,11 +1,8 @@
-// Removes/ resets Bootstrap default utilities:
 // The criteria is to gradually remove utilities that are more disruptive to the layout structure.
 // First we remove "decorative styles" and then move to utilities that change the layout structure more agressively.
 
 $utilities: () !default;
 
-// Compatibility levels:
-// Specify how much of utilities from Bootstrap we should keep
 $compatibility-level-3-resets: (
   "gradient": null,
   "color": null,

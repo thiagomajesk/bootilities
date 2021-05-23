@@ -1,0 +1,14 @@
+/*
+* Variables
+* Config: List of configuration keys to apply over the generated utilities
+* Reboot: Bootstrap utility resets
+* Spacers: List of spacer values that will be used to generate the utility classes
+* Colors: List of color variables to be used in the theme
+* Defaults: Defines variables values that should be used in the build
+*/
+
+@import "variables/config";
+@import "variables/reboot";
+@import "variables/spacers";
+@import "variables/colors";
+@import "variables/defaults";

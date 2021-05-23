@@ -22,9 +22,9 @@
   "sass": "scss/bootilities.scss",
   "scripts": {
     "release": "npm-run-all --parallel build-dev build-prod",
-    "build-dev": "sass --style expanded --source-map --no-error-css --embed-sources scss/bootilities.scss dist/css/bootilities.css",
-    "build-prod": "sass --style compressed --source-map --no-error-css --embed-sources scss/bootilities.scss dist/css/bootilities.min.css",
-    "watch": "sass --watch scss/bootilities.scss dist/css/bootilities.css"
+    "build-dev": "sass --style expanded --source-map --no-error-css --embed-sources scss/bootilities-utilities.scss dist/css/bootilities.css",
+    "build-prod": "sass --style compressed --source-map --no-error-css --embed-sources scss/bootilities-utilities.scss dist/css/bootilities.min.css",
+    "watch": "sass --watch scss/bootilities-utilities.scss dist/css/bootilities.css"
   },
   "devDependencies": {
     "bootstrap": "^5.0.0",

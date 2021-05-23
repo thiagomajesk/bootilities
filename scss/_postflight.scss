@@ -1,0 +1,11 @@
+/*
+* Cleanup logic for the generated utility map
+* We store a compatibility lookup that is used to remove 'equivalent' keys from the final map.
+* This should reduce utility duplication if we have different keys for the same utilities.
+*/
+
+$compatibility-lookup: (
+  // TODO: Find mapping distinctions
+);
+
+$utilities: remove-equivalent-utilities($utilities, $compatibility-lookup);
