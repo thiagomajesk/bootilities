@@ -1,4 +1,5 @@
 // Bootilities Setup & Configuration
+@import "functions.scss";
 @import "variables/config.scss";
 @import "variables/reboot.scss";
 @import "variables/spacers.scss";
@@ -21,6 +22,9 @@
 @import "utilities/box-alignment";
 @import "utilities/flexbox";
 @import "utilities/interactivity";
+
+// Utility cleanup
+@import "postflight.scss";
 
 // Bootstrap Utilities API Generation
 @import "../node_modules/bootstrap/scss/mixins";

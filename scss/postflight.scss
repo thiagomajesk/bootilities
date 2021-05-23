@@ -1,0 +1,8 @@
+// Compatibility Lookup:
+// Maps equivalent keys to remove from the final map.
+$compatibility-lookup: (
+  // TODO: Find mapping distinctions
+);
+
+// This prevents the generation of duplicate utilities if they are not mapped to the same keys.
+$utilities: remove-equivalent-utilities($utilities, $compatibility-lookup);

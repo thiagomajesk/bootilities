@@ -1,0 +1,13 @@
+@function merge-compatible-resets($utilities, $resets, $threshold) {
+  $current-level: map-get($bootilities-configuration, "compatibility-level");
+  @return if($current-level <=$threshold, map-merge($resets, $utilities), $utilities);
+}
+
+@function remove-equivalent-utilities($utilities, $lookup) {
+  @each $bootilities-key, $bootstrap-key in $lookup {
+    $has-duplicate: map-has-key($utilities, $bootilities-key) and map-has-key($utilities, $bootstrap-key);
+    $utilities: if($has-duplicate, map-merge($utilities, ($bootstrap-key: null)), $utilities);
+  }
+
+  @return $utilities;
+}
