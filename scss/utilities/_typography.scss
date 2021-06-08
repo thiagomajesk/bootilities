@@ -1,2 +1,2 @@
-@import "typography/text-color.scss";
-@import "typography/text-decoration.scss";
+@forward "typography/text-color" as text-color-*;
+@forward "typography/text-decoration" as text-decoration-*;

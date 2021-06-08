@@ -1,0 +1,44 @@
+@use "sass:map";
+@use "../../variables/spacers";
+
+$_spacers: map.merge(
+  spacers.$size-spacers,
+  (
+    "none": 0px,
+    "full": 9999px,
+  )
+);
+
+$utilities: (
+  "rounded": (
+    responsive: true,
+    property: border-radius,
+    class: "rounded",
+    values: $_spacers,
+  ),
+);
+
+$_variants: (
+  "t": border-top-left-radius border-top-right-radius,
+  "r": border-top-right-radius border-bottom-right-radius,
+  "b": border-bottom-right-radius border-bottom-left-radius,
+  "l": border-top-left-radius border-bottom-left-radius,
+  "tr": border-top-right-radius,
+  "tl": border-top-left-radius,
+  "br": border-bottom-right-radius,
+  "bl": border-bottom-left-radius,
+);
+
+@each $key, $value in $_variants {
+  $utilities: map.merge(
+    $utilities,
+    (
+      "rounded-#{$key}": (
+        responsive: true,
+        property: $value,
+        class: "rounded-#{$key}",
+        values: $_spacers,
+      ),
+    )
+  );
+}

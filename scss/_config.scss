@@ -1,0 +1,14 @@
+@use "variables/colors/default" as colors;
+
+$colors: () !default;
+
+$colors: map-merge(colors.$blues, $colors);
+$colors: map-merge(colors.$cool-grays, $colors);
+$colors: map-merge(colors.$greens, $colors);
+$colors: map-merge(colors.$indigos, $colors);
+$colors: map-merge(colors.$pinks, $colors);
+$colors: map-merge(colors.$purples, $colors);
+$colors: map-merge(colors.$reds, $colors);
+$colors: map-merge(colors.$yellows, $colors);
+
+$border-color: colors.$cool-gray-500 !default;

@@ -1,3 +1,5 @@
+@use "config";
+
 /*
 * Defaults required for the utilities to function properly
 * Partially forked from TailwindCSS:
@@ -9,5 +11,5 @@
 ::after {
   border-width: 0;
   border-style: solid;
-  border-color: $border-color;
+  border-color: config.$border-color;
 }

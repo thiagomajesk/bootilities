@@ -1,1 +1,1 @@
-@import "flexbox/flex-direction.scss";
+@forward "flexbox/flex-direction" as flex-direction-*;

@@ -1,5 +1,5 @@
-@import "layout/box-sizing.scss";
-@import "layout/clear.scss";
-@import "layout/display.scss";
-@import "layout/floats.scss";
-@import "layout/overflow.scss";
+@forward "layout/box-sizing.scss" as box-sizing-*;
+@forward "layout/clear.scss" as clear-*;
+@forward "layout/display.scss" as display-*;
+@forward "layout/floats.scss" as floats-*;
+@forward "layout/overflow.scss" as overflow-*;

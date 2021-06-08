@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "../../variables/spacers";
+
+$utilities: (
+  "width": (
+    responsive: false,
+    property: width,
+    class: w,
+    values: map.merge(spacers.$size-spacers, spacers.$dimension-spacers),
+  ),
+);

@@ -1,1 +1,1 @@
-@import "backgrounds/background-color.scss";
+@forward "backgrounds/background-color" as background-color-*;

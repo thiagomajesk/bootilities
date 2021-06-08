@@ -1,0 +1,23 @@
+$warm-gray-50: #fafaf9 !default;
+$warm-gray-100: #f5f5f4 !default;
+$warm-gray-200: #e7e5e4 !default;
+$warm-gray-300: #d6d3d1 !default;
+$warm-gray-400: #a8a29e !default;
+$warm-gray-500: #78716c !default;
+$warm-gray-600: #57534e !default;
+$warm-gray-700: #44403c !default;
+$warm-gray-800: #292524 !default;
+$warm-gray-900: #1c1917 !default;
+
+$warm-grays: (
+  "warm-gray-50": $warm-gray-50,
+  "warm-gray-100": $warm-gray-100,
+  "warm-gray-200": $warm-gray-200,
+  "warm-gray-300": $warm-gray-300,
+  "warm-gray-400": $warm-gray-400,
+  "warm-gray-500": $warm-gray-500,
+  "warm-gray-600": $warm-gray-600,
+  "warm-gray-700": $warm-gray-700,
+  "warm-gray-800": $warm-gray-800,
+  "warm-gray-900": $warm-gray-900,
+);

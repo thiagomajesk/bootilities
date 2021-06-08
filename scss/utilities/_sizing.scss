@@ -1,8 +1,8 @@
-@import "sizing/width.scss";
-@import "sizing/min-width.scss";
-@import "sizing/max-width.scss";
-@import "sizing/height.scss";
-@import "sizing/min-height.scss";
-@import "sizing/max-height.scss";
-@import "sizing/margin.scss";
-@import "sizing/padding.scss";
+@forward "sizing/width" as width-*;
+@forward "sizing/min-width" as min-width-*;
+@forward "sizing/max-width" as max-width-*;
+@forward "sizing/height" as height-*;
+@forward "sizing/min-height" as min-height-*;
+@forward "sizing/max-height" as max-height-*;
+@forward "sizing/margin" as margin-*;
+@forward "sizing/padding" as padding-*;

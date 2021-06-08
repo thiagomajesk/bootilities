@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "../../config";
+
+$utilities: (
+    "text-color": (
+      responsive: false,
+      property: color,
+      class: text,
+      values: config.$colors
+    )
+);

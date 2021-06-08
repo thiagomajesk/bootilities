@@ -1,0 +1,11 @@
+@use "../../config";
+
+$utilities: (
+  "background-color": (
+    responsive: false,
+    property: background-color,
+    class: bg,
+    state: hover,
+    values: config.$colors,
+  ),
+);

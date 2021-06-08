@@ -1,15 +1,108 @@
-/*!
-* Bootilities Utilities
-* This file exists with the sole purpose of outputting the standalone utilities for usage without Bootstrap.
-* If you're using Bootstrap and Sass, chances are you want to include `bootilities.scss` instead.
-* For more information go to: https://getbootstrap.com/docs/5.0/utilities/api
-*/
+@use "bootilities.scss";
 
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/utilities";
+$utilities: (
+  "align-content": null,
+  "align-items": null,
+  "align-self": null,
+  "align": null,
+  "background-color": null,
+  "border-bottom": null,
+  "border-color": null,
+  "border-end": null,
+  "border-start": null,
+  "border-top": null,
+  "border-width": null,
+  "border": null,
+  "bottom": null,
+  "color": null,
+  "display": null,
+  "end": null,
+  "flex-direction": null,
+  "flex-grow": null,
+  "flex-shrink": null,
+  "flex-wrap": null,
+  "flex": null,
+  "float": null,
+  "font-family": null,
+  "font-size": null,
+  "font-style": null,
+  "font-weight": null,
+  "gap": null,
+  "gradient": null,
+  "height": null,
+  "justify-content": null,
+  "line-height": null,
+  "margin-bottom": null,
+  "margin-end": null,
+  "margin-start": null,
+  "margin-top": null,
+  "margin-x": null,
+  "margin-y": null,
+  "margin": null,
+  "max-height": null,
+  "max-width": null,
+  "min-viewport-height": null,
+  "min-viewport-width": null,
+  "negative-margin-bottom": null,
+  "negative-margin-end": null,
+  "negative-margin-start": null,
+  "negative-margin-top": null,
+  "negative-margin-x": null,
+  "negative-margin-y": null,
+  "negative-margin": null,
+  "order": null,
+  "overflow": null,
+  "padding-bottom": null,
+  "padding-end": null,
+  "padding-start": null,
+  "padding-top": null,
+  "padding-x": null,
+  "padding-y": null,
+  "padding": null,
+  "pointer-events": null,
+  "position": null,
+  "rounded-bottom": null,
+  "rounded-end": null,
+  "rounded-start": null,
+  "rounded-top": null,
+  "rounded": null,
+  "shadow": null,
+  "start": null,
+  "text-align": null,
+  "text-decoration": null,
+  "text-transform": null,
+  "top": null,
+  "translate-middle": null,
+  "user-select": null,
+  "viewport-height": null,
+  "viewport-width": null,
+  "visibility": null,
+  "white-space": null,
+  "width": null,
+  "word-wrap": null,
+);
 
-@import "bootilities.scss";
-
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities/api";
+$utilities: map-merge($utilities, bootilities.$background-color-utilities);
+$utilities: map-merge($utilities, bootilities.$border-color-utilities);
+$utilities: map-merge($utilities, bootilities.$border-radius-utilities);
+$utilities: map-merge($utilities, bootilities.$border-width-utilities);
+$utilities: map-merge($utilities, bootilities.$border-style-utilities);
+$utilities: map-merge($utilities, bootilities.$justify-content-utilities);
+$utilities: map-merge($utilities, bootilities.$align-items-utilities);
+$utilities: map-merge($utilities, bootilities.$flex-direction-utilities);
+$utilities: map-merge($utilities, bootilities.$cursor-utilities);
+$utilities: map-merge($utilities, bootilities.$box-sizing-utilities);
+$utilities: map-merge($utilities, bootilities.$clear-utilities);
+$utilities: map-merge($utilities, bootilities.$display-utilities);
+$utilities: map-merge($utilities, bootilities.$floats-utilities);
+$utilities: map-merge($utilities, bootilities.$overflow-utilities);
+$utilities: map-merge($utilities, bootilities.$width-utilities);
+$utilities: map-merge($utilities, bootilities.$min-width-utilities);
+$utilities: map-merge($utilities, bootilities.$max-width-utilities);
+$utilities: map-merge($utilities, bootilities.$height-utilities);
+$utilities: map-merge($utilities, bootilities.$min-height-utilities);
+$utilities: map-merge($utilities, bootilities.$max-height-utilities);
+$utilities: map-merge($utilities, bootilities.$margin-utilities);
+$utilities: map-merge($utilities, bootilities.$padding-utilities);
+$utilities: map-merge($utilities, bootilities.$text-color-utilities);
+$utilities: map-merge($utilities, bootilities.$text-decoration-utilities);

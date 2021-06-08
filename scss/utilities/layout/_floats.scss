@@ -1,0 +1,15 @@
+$utilities: (
+  "floats": (
+    responsive: true,
+    property: float,
+    values: right left none,
+  ),
+);
+
+.clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

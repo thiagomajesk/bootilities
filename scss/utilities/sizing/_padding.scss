@@ -1,0 +1,89 @@
+@use "sass:map";
+@use "../../variables/spacers";
+
+$utilities: (
+  "padding": (
+    responsive: true,
+    property: padding,
+    class: p,
+    values: spacers.$size-spacers,
+  ),
+  "padding-x": (
+    responsive: true,
+    property: padding-right padding-left,
+    class: px,
+    values: spacers.$size-spacers,
+  ),
+  "padding-y": (
+    responsive: true,
+    property: padding-top padding-bottom,
+    class: py,
+    values: spacers.$size-spacers,
+  ),
+  "padding-top": (
+    responsive: true,
+    property: padding-top,
+    class: pt,
+    values: spacers.$size-spacers,
+  ),
+  "padding-right": (
+    responsive: true,
+    property: padding-right,
+    class: pr,
+    values: spacers.$size-spacers,
+  ),
+  "padding-bottom": (
+    responsive: true,
+    property: padding-bottom,
+    class: pb,
+    values: spacers.$size-spacers,
+  ),
+  "padding-left": (
+    responsive: true,
+    property: padding-left,
+    class: pl,
+    values: spacers.$size-spacers,
+  ),
+  // "negative-padding": (
+  //   responsive: true,
+  //   property: padding,
+  //   class: p,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+  // "negative-padding-x": (
+  //   responsive: true,
+  //   property: padding-right padding-left,
+  //   class: px,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+  // "negative-padding-y": (
+  //   responsive: true,
+  //   property: padding-top padding-bottom,
+  //   class: py,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+  // "negative-padding-top": (
+  //   responsive: true,
+  //   property: padding-top,
+  //   class: pt,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+  // "negative-padding-right": (
+  //   responsive: true,
+  //   property: padding-right,
+  //   class: pr,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+  // "negative-padding-bottom": (
+  //   responsive: true,
+  //   property: padding-bottom,
+  //   class: pb,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+  // "negative-padding-left": (
+  //   responsive: true,
+  //   property: padding-left,
+  //   class: pl,
+  //   values: spacers.$negative-size-spacers,
+  // ),
+);

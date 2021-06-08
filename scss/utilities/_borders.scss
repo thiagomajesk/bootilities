@@ -1,4 +1,4 @@
-@import "borders/border-color.scss";
-@import "borders/border-radius.scss";
-@import "borders/border-width.scss";
-@import "borders/border-style.scss";
+@forward "borders/border-color" as border-color-*;
+@forward "borders/border-radius" as border-radius-*;
+@forward "borders/border-width" as border-width-*;
+@forward "borders/border-style" as border-style-*;

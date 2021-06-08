@@ -1,12 +1,8 @@
-/*
-* Utilities
-*/
-
-@import "utilities/layout";
-@import "utilities/backgrounds";
-@import "utilities/borders";
-@import "utilities/typography";
-@import "utilities/sizing";
-@import "utilities/box-alignment";
-@import "utilities/flexbox";
-@import "utilities/interactivity";
+@forward "utilities/layout";
+@forward "utilities/backgrounds";
+@forward "utilities/borders";
+@forward "utilities/typography";
+@forward "utilities/sizing";
+@forward "utilities/box-alignment";
+@forward "utilities/flexbox";
+@forward "utilities/interactivity";

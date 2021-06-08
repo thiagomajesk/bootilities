@@ -1,0 +1,11 @@
+$utilities: (
+  "box-sizing": (
+    responsive: true,
+    property: box-sizing,
+    class: box,
+    values: (
+      border: border-box,
+      content: content-box,
+    ),
+  ),
+);

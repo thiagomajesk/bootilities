@@ -1,12 +1,8 @@
 // Configuration
-@import "functions";
-@import "variables";
+@forward "config";
 
 // Defaults & Resets
-@import "preflight";
+@forward "preflight";
 
 // Utilities
-@import "utilities";
-
-// Cleaup
-@import "postflight";
+@forward "utilities";

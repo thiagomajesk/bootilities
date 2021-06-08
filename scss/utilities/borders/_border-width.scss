@@ -1,0 +1,32 @@
+@use "sass:map";
+@use "../../variables/spacers";
+
+$utilities: (
+  "border-width": (
+    responsive: true,
+    property: border-width,
+    class: "border",
+    values: spacers.$border-spacers,
+  ),
+);
+
+$_variants: (
+  "t": border-top-width,
+  "r": border-right-width,
+  "b": border-bottom-width,
+  "l": border-left-width,
+);
+
+@each $key, $value in $_variants {
+  $utilities: map.merge(
+    $utilities,
+    (
+      "border-width-#{$key}": (
+        responsive: true,
+        property: $value,
+        class: "border-#{$key}",
+        values: spacers.$border-spacers,
+      ),
+    )
+  );
+}

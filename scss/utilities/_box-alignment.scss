@@ -1,2 +1,2 @@
-@import "box-alignment/justify-content.scss";
-@import "box-alignment/align-items.scss";
+@forward "box-alignment/justify-content" as justify-content-*;
+@forward "box-alignment/align-items" as align-items-*;

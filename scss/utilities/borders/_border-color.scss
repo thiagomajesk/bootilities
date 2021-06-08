@@ -1,0 +1,10 @@
+@use "../../config";
+
+$utilities: (
+  "border-color": (
+    responsive: false,
+    property: border-color,
+    class: border,
+    values: config.$colors,
+  ),
+);

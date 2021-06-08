@@ -1,0 +1,23 @@
+$true-gray-50: #fafafa !default;
+$true-gray-100: #f5f5f5 !default;
+$true-gray-200: #e5e5e5 !default;
+$true-gray-300: #d4d4d4 !default;
+$true-gray-400: #a3a3a3 !default;
+$true-gray-500: #737373 !default;
+$true-gray-600: #525252 !default;
+$true-gray-700: #404040 !default;
+$true-gray-800: #262626 !default;
+$true-gray-900: #171717 !default;
+
+$true-grays: (
+  "true-gray-50": $true-gray-50,
+  "true-gray-100": $true-gray-100,
+  "true-gray-200": $true-gray-200,
+  "true-gray-300": $true-gray-300,
+  "true-gray-400": $true-gray-400,
+  "true-gray-500": $true-gray-500,
+  "true-gray-600": $true-gray-600,
+  "true-gray-700": $true-gray-700,
+  "true-gray-800": $true-gray-800,
+  "true-gray-900": $true-gray-900,
+);

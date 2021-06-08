@@ -1,0 +1,17 @@
+$utilities: (
+  "cursor": (
+    responsive: false,
+    property: cursor,
+    class: cursor,
+    values: (
+      auto,
+      default,
+      pointer,
+      wait,
+      text,
+      move,
+      help,
+      not-allowed,
+    ),
+  ),
+);

@@ -1,0 +1,13 @@
+$utilities: (
+  "flex-direction": (
+    responsive: true,
+    property: flex-direction,
+    class: flex,
+    values: (
+      "row": row,
+      "row-reverse": row-reverse,
+      "col": column,
+      "col-reverse": column-reverse,
+    ),
+  ),
+);
