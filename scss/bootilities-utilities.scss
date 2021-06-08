@@ -1,3 +1,10 @@
+/*!
+* Bootilities Utilities
+* This file exists with the sole purpose of outputting the standalone utilities for usage without Bootstrap.
+* If you're using Bootstrap and Sass, chances are you want to include `bootilities.scss` instead.
+* For more information go to: https://getbootstrap.com/docs/5.0/utilities/api
+*/
+
 @use "bootilities.scss";
 
 $utilities: (
